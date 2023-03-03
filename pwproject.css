@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: #edf1edfd;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+  @import url('https://fonts.googleapis.com/css2?family=Lobster+Two&family=Poppins&family=Rubik+Mono+One&display=swap');
+  
+  font-family: 'Poppins', sans-serif;
+  
+}
+li{
+    list-style: none;
+     cursor: pointer; 
+}
+a{
+    text-decoration: none;
+}
+button{
+    background-color: rgb(18,155,155);
+    padding: 4px 10px;
+    cursor: pointer;
+    color:white;
+    border:1px solid white;
+    border-radius: 5px;
+    font-weight: 700;
+    width:fit-content;
+}
+button:hover{
+    background-color: white;
+    color: rgb(18,155,155);
+    border: 1px solid black;
+}
+header{
+     padding: 15px 0; 
+}
+nav{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+nav.logo{
+    height: 75px;
+    width: 75px;
+    justify-content: flex-end;
+    
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    font-weight: 500;
+}
+nav ul li:hover{
+    text-decoration: underline;
+    font-weight: 900;
+}
+.search{
+    
+    display: flex;
+    gap:30px;
+}
+input{
+    padding: 4px 10px;
+}
+.heroleft{
+    display: flex;
+    align-items: center;
+}
+.hleft{
+    width: 60%;
+    padding: 0 8%;
+}
+.hleft h1{
+    font-weight:800;
+    font-size: 38px;
+    margin-bottom: 16px;
+}
+.hleft h1 span {
+    /* color: rgb(18,155,155); */
+    font-weight: 900;
+    background-color: #dfdfe0;
+    padding: 0 15px;
+}
+.hleft p{
+    font-weight: 500;
+    font-size: 30px;
+}
+.hleft p span {
+    font-size: 25px;
+    font-weight: 700;
+    color:rgb(18,155,155) ;
+}
+.heroright{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.hrbtn{
+display: flex;
+align-items: center;
+gap: 30px;
+}
+.heroright img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+footer{
+    display: flex;
+    font-weight: 600;
+    padding: 20px;
+    justify-content: space-between;
+}
+footer ul{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+
